@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
     printf("Ingrese un numero: ");
     scanf("%d", &num);
     
+
     while (num<1200)
     {
         printf("Ingrese un numero: ");
@@ -23,6 +24,6 @@ int main(int argc, char const *argv[])
         suma=suma+num;
         total2=suma;
 
-    printf("Numeros ingresados necesarios: %d ", total2);
+    printf("Suma total de los numeros ingresados: %d ", total2);
     return 0;
 }
